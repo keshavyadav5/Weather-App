@@ -6,6 +6,7 @@
   height: 100vh;
   color: #fff;
   overflow-y: scroll;
+  transition: all 0.5s;
 }
 .temperature{
   width: 400px;

@@ -1,0 +1,102 @@
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d213a;
+  height: 100vh;
+  color: #fff;
+  overflow-y: scroll;
+}
+.temperature{
+  width: 400px;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.temperature-inp{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input{
+  width: 300px;
+  padding: 5px;
+  border: 1px solid blanchedalmond;
+  border-radius: 1px;
+  font-size: 20px;
+  background: transparent;
+  color: #ffffff;
+}
+
+h2{
+  font-size: 28px;
+  font-weight: 700;
+}
+p{
+  font-size: 14px;
+  margin: 10px auto;
+}
+
+.location{
+  display: flex;
+}
+
+.bas:hover{
+  transform: scale(1.05);
+  translate: all 1s;
+  cursor: pointer;
+}
+
+.cards{
+  background-color: #100e1c;
+  width: 150px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+h3{
+  font-size: 20px;
+}
+.sped{
+  font-size: 29px;
+}
+.unit{
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.right{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; 
+}
+
+.data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.degree{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.unit-deg{
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+
+@media(max-width: 800px){
+  .app{
+    display: flex;
+    flex-direction: column;
+  }
+}

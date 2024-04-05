@@ -1,0 +1,23 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #100e1c;
+}
+
+.left {
+  width: 25%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  width: 35%;
+  height: 35%;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 5px;
+}
